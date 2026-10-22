@@ -1,0 +1,23 @@
+# sanal ortam ve Python artıkları
+.venv/
+__pycache__/
+*.pyc
+
+# API anahtarı ve gizli dosyalar (asla yüklenmez)
+.env
+*.key
+
+# önbellekler, sohbet kayıtları, geri bildirimler
+Day5/onbellek/
+*.pkl
+*.npy
+sohbet_*.md
+geri_bildirim.jsonl
+
+# kitap PDF'i büyük: README'deki bağlantıdan indirilir
+Day5/veri/*.pdf
+
+# Jupyter
+.ipynb_checkpoints/
+
+vektor_db/
